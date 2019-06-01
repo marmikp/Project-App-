@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/navigation_live"
+        android:icon="@drawable/live"
+        android:title="@string/title_live" />
+
+    <item
+        android:id="@+id/navigation_mode"
+        android:icon="@drawable/ic_navigation_mode"
+        android:title="Mode"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/title_profile" />
+
+
+</menu>

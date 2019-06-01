@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/blackqr1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:id="@+id/submit"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="25dp"
+        android:id="@+id/signup"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/ip_clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear IP"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"/>
+
+</LinearLayout>

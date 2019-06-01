@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project App</string>
+    <string name="pref_name">preference</string>
+    <string name="url">http://192.168.225.56/</string>
+    <string name="title_activity_dashboard1">Dashboard1</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_live">Live</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mode_title">Mode Selection</string>
+    <string name="low_mode">Low Mode</string>
+    <string name="high_mode">High Mode</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="pref_ip">pref_ip</string>
+</resources>
